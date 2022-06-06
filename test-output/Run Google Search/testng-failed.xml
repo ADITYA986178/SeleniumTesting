@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Run Google Search]">
+  <test thread-count="5" name="Search Test(failed)">
+    <classes>
+      <class name="com.asd.googletest.GoogleTest">
+        <methods>
+          <include name="openGoogle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="searchInGoogle"/>
+        </methods>
+      </class> <!-- com.asd.googletest.GoogleTest -->
+    </classes>
+  </test> <!-- Search Test(failed) -->
+</suite> <!-- Failed suite [Run Google Search] -->
